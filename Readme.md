@@ -1,5 +1,10 @@
 # MySQL Kubernetes Configuration
 
+kubectl create namespace development
+
+kubectl config set-context --current --namespace=development
+
+
 ### While executing these commands make sure you are in the folder where files are present or change commands to include the file path.
 
 <b>1. Create persistent volume claim following command.</b>
